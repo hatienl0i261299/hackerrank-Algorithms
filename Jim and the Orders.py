@@ -1,0 +1,1 @@
+print(*[customer for (time, customer) in sorted([(sum(map(int,input().split())), i+1) for i in range(int(input()))])])
